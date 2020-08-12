@@ -19,8 +19,18 @@ class _MyAppState extends State<MyApp> {
         home: Scaffold(
           // backgroundColor:
           appBar: AppBar(
-            title: Text('Calculator'),
+            title: Text(
+              'Calculator',
+              // style: TextStyle(
+              // color: Colors.whg,
+              // ),
+            ),
             backgroundColor: Colors.black,
+            centerTitle: true,
+          ),
+          body: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [],
           ),
         ));
   }
