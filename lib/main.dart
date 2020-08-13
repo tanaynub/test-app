@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
           // backgroundColor:
           appBar: AppBar(
             title: Text(
-              'Calculator',
+              'Test App',
               // style: TextStyle(
               // color: Colors.whg,
               // ),
