@@ -19,12 +19,7 @@ class _MyAppState extends State<MyApp> {
         home: Scaffold(
           // backgroundColor:
           appBar: AppBar(
-            title: Text(
-              'Test App',
-              // style: TextStyle(
-              // color: Colors.whg,
-              // ),
-            ),
+            title: Text('Test App'),
             backgroundColor: Colors.black,
             centerTitle: true,
           ),
